@@ -7,7 +7,7 @@ So that I can test them to destruction
 ## Acceptance Criteria
 * Can call any service endpoint
 
-## [Call httpbin endpoint testing service](-)
-Given I know of a service 
-When I call that service
-Then I get a [result](- "c:assertTrue=callService()")
+## [Call DigitalNZ service](-)
+Given I want to call a DigitalNZ API
+When I call the service for notices from New Zealand Gazette office
+Then I get a [list of notices from NZ Gazatte office in JSON format](- "c:assertTrue=callService()")
